@@ -32,7 +32,7 @@ In order for the provers to prove that they are worthy of something, it is neces
 
     func NewChallenge(difficulty uint32, nonce []byte) (challenge []byte)
 
-The NewChallenge function creates and returns this challenge. Difficulty and nonce parameters are passed into the function to add some complexity and diversify. Difficulty is the degree of complexity that determined how difficult it will be for a prover to find the answer to a given challenge. Nonce is information that is sent to the client (prover) each time a challenge is presented. Through it, the challenges are different from each other.
+The NewChallenge function creates and returns that challenge. Difficulty and nonce parameters are passed into the function to add some complexity and diversify. Difficulty is the degree of complexity that determined how difficult it will be for a prover to find the answer to a given challenge. Nonce is information that is sent to the client (prover) each time a challenge is presented. Through it, the challenges are different from each other.
 
     func Solve(challenge []byte, data []byte) (proof []byte, err error)
 
