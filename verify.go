@@ -1,4 +1,4 @@
-package pow
+package powgo
 
 // Verify the proof of work is Solved
 func Verify(challenge []byte, proof []byte, data []byte) (ok bool, err error) {

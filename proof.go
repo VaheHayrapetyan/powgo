@@ -1,4 +1,4 @@
-package pow
+package powgo
 
 import "encoding/base64"
 

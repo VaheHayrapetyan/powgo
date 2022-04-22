@@ -1,4 +1,4 @@
-package pow
+package powgo
 
 // Solve the proof of work challenge
 func Solve(challenge []byte, data []byte) (proof []byte, err error) {
